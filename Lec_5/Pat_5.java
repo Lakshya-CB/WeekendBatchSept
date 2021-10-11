@@ -12,6 +12,8 @@ public class Pat_5 {
 				System.out.print("* ");
 				star++;
 			}
+// Most useless thing. Printing space after you have printed the row
+			
 			int L = 1;
 			while (L <= num_L) {
 				System.out.print("  ");
