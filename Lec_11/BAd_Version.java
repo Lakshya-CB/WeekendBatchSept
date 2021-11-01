@@ -18,4 +18,9 @@ public class BAd_Version {
 	        }
 	        return ans;
 	    }
+
+	private boolean isBadVersion(int mid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
