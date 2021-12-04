@@ -31,7 +31,7 @@ public class Strairs {
 			System.out.println(ans);
 			return;
 		}
-
+ans.
 		climb(curr + 1, des, ans + 1);
 		climb(curr + 2, des, ans + 2);
 		climb(curr + 3, des, ans + 3);
