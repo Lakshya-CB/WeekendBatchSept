@@ -15,7 +15,7 @@ public class Stack_Ques {
 		S.disp();
 		actual_rec(S);
 		S.disp();
-		
+		int[][] party = {{0,0,1,0},{0,0,1,0},{0,0,0,0},{0,0,1,0}};
 	}
 	public static void rev_Print(Stack S) throws Exception {
 		if(S.isEmpty()) {
@@ -62,13 +62,13 @@ public class Stack_Ques {
 //		check the celeb!!
 		int celeb = S.pop();
 		for(int i =0;i<party.length;i++) {
-			if(party[celeb][i]==1) {
+			if(party[celeb][i]==1 && i!=celeb) {
 				System.out.println("koi nahi hein celeb");
 				return;
 			}
 		}
 		for(int i =0;i<party.length;i++) {
-			if(party[i][celeb]==0) {
+			if(party[i][celeb]==0 && i!=celeb) {
 				System.out.println("koi nahi hein celeb");
 				return;
 			}
